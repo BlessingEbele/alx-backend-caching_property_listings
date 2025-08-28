@@ -1,0 +1,20 @@
+Django>=4.2.10
+djangorestframework>=3.14.0
+psycopg2-binary>=2.9.9
+django-redis>=5.4.0
+# Code formatting & linting
+black>=24.4.2
+flake8>=7.1.1
+isort>=5.13.2
+
+# Testing
+pytest>=8.3.2
+pytest-django>=4.9.0
+coverage>=7.6.0
+
+# Environment variables management (optional, but useful in dev)
+python-decouple>=3.8
+django-environ>=0.11.2
+
+# Debugging tools
+django-debug-toolbar>=4.4.6
