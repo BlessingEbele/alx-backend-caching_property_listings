@@ -78,12 +78,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'property_db',
-        'USER': 'property_user',
-        'PASSWORD': 'property_password',
-        'HOST': "localhost",  # not "postgres"
-        'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'postgres',   # service name from docker-compose.yml
+        'PORT': 5432,
     }
 }
+
 
 CACHES = {
     "default": {
