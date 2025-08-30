@@ -1,4 +1,3 @@
-# Create your models here.
 from django.db import models
 
 class Property(models.Model):
@@ -10,3 +9,6 @@ class Property(models.Model):
 
     def __str__(self):
         return self.title
+
+    class Meta:
+        ordering = ["-created_at"]
